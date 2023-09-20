@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDFCEF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+p {
+    margin: 0;
+    line-height: 1.37em;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    padding-top: 120px;
+}
+
+.btn {
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: #FF6861;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: 22px 70px;
+    width: 227px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #f28882;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.introtext {
+    width: 423px;
+    font-size: 18px;
+    margin: 30px 0px;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.farm {
+    width: 465px;
+}
+
+.advantages-item {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.advantage {
+    width: 73px;
+    height: 73px;
+    margin-right: 34px;
+    transition: all 0.5s ease;
+}
+
+.advantages-item:hover .advantage {
+    background: #000;
+    color: #fff
+}
+
+.advantage-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+
+.animals-block {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.animals-wrap {
+    padding: 76px 125px 75px 122px;
+    gap: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%); 
+}
+
+.animal-title {
+    text-align: left;
+}
+
+.animal-text {
+    margin: 18px 0;
+    width: 475px;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
